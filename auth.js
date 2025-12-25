@@ -1,17 +1,20 @@
+const express = require('express');
 const jwt = require('jsonwebtoken');
+const router = express.Router();
 
-function requireAuth(req, res, next) {
-  try {
-    const auth = req.headers.authorization || '';
-    const token = (auth.startsWith('Bearer ') ? auth.slice(7) : null) || (req.query && req.query.token) || null;
-    if (!token) return res.status(401).json({ error: 'Unauthorized' });
-    const secret = process.env.JWT_SECRET || 'dev-secret';
-    const payload = jwt.verify(token, secret);
-    req.user = payload;
-    next();
-  } catch (err) {
-    return res.status(401).json({ error: 'Invalid token' });
-  }
-}
+router.post('/login', (req, res) => {
+  const { username, password } = req.body || {};
+  const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'admin';
+  const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'password';
 
-module.exports = { requireAuth };
+  if (!username || !password) return res.status(400).json({ error: 'username and password required' });
+  if (username !== ADMIN_USERNAME || password !== ADMIN_PASSWORD) return res.status(401).json({ error: 'Invalid credentials' });
+
+  const payload = { username };
+  const secret = process.env.JWT_SECRET || 'dev-secret';
+  const token = jwt.sign(payload, secret, { expiresIn: '12h' });
+
+  res.json({ token });
+});
+
+module.exports = router;
