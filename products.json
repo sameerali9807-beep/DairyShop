@@ -1,0 +1,185 @@
+[
+  {
+    "id": "p-001",
+    "name": "Full Cream Milk",
+    "category": "milk",
+    "price": 60,
+    "mrp": 70,
+    "unit": "1 L",
+    "inStock": true,
+    "imageUrl": "/images/Lassi.jfif",
+    "description": "Fresh full cream cow milk delivered daily.",
+    "updatedAt": "2025-12-01T10:00:00.000Z"
+  },
+  {
+    "id": "p-002",
+    "name": "Paneer (Cottage Cheese)",
+    "category": "paneer",
+    "price": 240,
+    "mrp": 280,
+    "unit": "500 g",
+    "inStock": true,
+    "imageUrl": "/images/Paneer.jpg",
+    "description": "Fresh homemade paneer, soft and rich.",
+    "updatedAt": "2025-12-02T11:30:00.000Z"
+  },
+  {
+    "id": "p-003",
+    "name": "Desi Ghee",
+    "category": "ghee",
+    "price": 400,
+    "mrp": 450,
+    "unit": "500 g",
+    "inStock": true,
+    "imageUrl": "/images/Desi Ghi.jpg",
+    "description": "A2 desi ghee, cold-pressed and aromatic.",
+    "updatedAt": "2025-12-04T08:00:00.000Z"
+  },
+  
+  {
+    "id": "p-005",
+    "name": "Gulab Jamun (Per Piece)",
+    "category": "sweets",
+    "price": 15,
+    "mrp": 18,
+    "unit": "piece",
+    "inStock": true,
+    "imageUrl": "/images/Gulaabjamun.jpg",
+    "description": "Soft, syrupy gulab jamuns made fresh.",
+    "updatedAt": "2025-12-05T09:00:00.000Z"
+  },
+  {
+    "id": "p-006",
+    "name": "Rasgulla (Per Piece)",
+    "category": "sweets",
+    "price": 10,
+    "mrp": 12,
+    "unit": "piece",
+    "inStock": true,
+    "imageUrl": "/images/Chena Rassgulla.jpg",
+    "description": "Spongy, sweet rasgullas made from chena.",
+    "updatedAt": "2025-12-06T09:30:00.000Z"
+  },
+  {
+    "id": "p-007",
+    "name": "Khoya (Mawa)",
+    "category": "sweets",
+    "price": 450,
+    "mrp": 480,
+    "unit": "1 kg",
+    "inStock": true,
+    "imageUrl": "/images/Khoya.jpg",
+    "description": "Rich khoya for sweets and desserts.",
+    "updatedAt": "2025-12-07T08:45:00.000Z"
+  },
+  {
+    "id": "p-008",
+    "name": "Lassi (Sweet)",
+    "category": "milk",
+    "price": 40,
+    "mrp": 50,
+    "unit": "300 ml",
+    "inStock": true,
+    "imageUrl": "/images/Lassi.jfif",
+    "description": "Refreshing sweet lassi made with fresh curd.",
+    "updatedAt": "2025-12-08T07:30:00.000Z"
+  },
+  {
+    "id": "p-009",
+    "name": "Rabri",
+    "category": "sweets",
+    "price": 120,
+    "mrp": 140,
+    "unit": "250 g",
+    "inStock": true,
+    "imageUrl": "/images/Rabadi.jpg",
+    "description": "Creamy rabri for desserts and celebrations.",
+    "updatedAt": "2025-12-09T10:15:00.000Z"
+  }
+  ,
+  {
+    "id": "p-010",
+    "name": "Dahi (Curd)",
+    "category": "dairy",
+    "price": 60,
+    "mrp": 70,
+    "unit": "500 g",
+    "inStock": true,
+    "imageUrl": "/images/Dahi.jpg",
+    "description": "Fresh homemade dahi (curd).",
+    "updatedAt": "2025-12-23T10:00:00.000Z"
+  }
+  ,
+  {
+    "id": "p-011",
+    "name": "Doodh Barfi",
+    "category": "sweet",
+    "price": 400,
+    "mrp": 450,
+    "unit": "1 kg",
+    "inStock": true,
+    "imageUrl": "/images/Doodh Barfi.jpg",
+    "description": "Rich doodh barfi made from pure milk solids.",
+    "updatedAt": "2025-12-23T11:00:00.000Z"
+  },
+  {
+    "id": "p-012",
+    "name": "Basan Laddu",
+    "category": "sweet",
+    "price": 350,
+    "mrp": 380,
+    "unit": "1 kg",
+    "inStock": true,
+    "imageUrl": "/images/Basan Laddu.jpg",
+    "description": "Traditional besan laddus, soft and aromatic.",
+    "updatedAt": "2025-12-23T11:05:00.000Z"
+  },
+  {
+    "id": "p-013",
+    "name": "Boondi Ladoo",
+    "category": "sweet",
+    "price": 320,
+    "mrp": 350,
+    "unit": "1 kg",
+    "inStock": true,
+    "imageUrl": "/images/Boondi laddu.jpg",
+    "description": "Classic boondi laddus made fresh daily.",
+    "updatedAt": "2025-12-23T11:10:00.000Z"
+  },
+  {
+    "id": "p-014",
+    "name": "Kaju Katli",
+    "category": "sweet",
+    "price": 700,
+    "mrp": 750,
+    "unit": "1 kg",
+    "inStock": true,
+    "imageUrl": "/images/Kaju Katli.jpg",
+    "description": "Premium kaju katli made with pure cashews and sugar.",
+    "updatedAt": "2025-12-23T11:15:00.000Z"
+  },
+  {
+    "id": "p-015",
+    "name": "Milk Cake",
+    "category": "sweet",
+    "price": 550,
+    "mrp": 600,
+    "unit": "1 kg",
+    "inStock": true,
+    "imageUrl": "/images/Milkek.jpg",
+    "description": "Traditional milk cake, dense and sweet.",
+    "updatedAt": "2025-12-23T11:20:00.000Z"
+  },
+  {
+    "id": "p-016",
+    "name": "Milk (Fresh)",
+    "category": "milk",
+    "price": 60,
+    "mrp": 70,
+    "unit": "1 L",
+    "inStock": true,
+    "imageUrl": "/images/Milk.jpg",
+    "description": "Fresh cow milk, delivered daily.",
+    "updatedAt": "2025-12-23T11:25:00.000Z"
+  }
+]
